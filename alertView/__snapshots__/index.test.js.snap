@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="shadowView"
+  id="alertView"
+>
+  <div
+    className="alertView"
+  >
+    <div
+      className="titleView"
+    />
+    
+    <div
+      className="contentView"
+    />
+    <div
+      className="buttonsView"
+    >
+      <div
+        className="buttonItem"
+      >
+        取消
+      </div>
+      <div
+        className="buttonItem"
+      >
+        复制
+      </div>
+    </div>
+  </div>
+</div>
+`;

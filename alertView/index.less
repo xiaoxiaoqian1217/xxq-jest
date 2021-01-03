@@ -1,0 +1,70 @@
+#alertView {
+  position: fixed;
+	z-index: 31;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.6);
+  .alertView {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 8px;
+    z-index: 1021;
+    width: 300px;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+    .titleView {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333333;
+      margin-top: 20px;
+    }
+    .etraView {
+      line-height: 44px;
+      background-color: #FAFAFA;
+      font-size: 14px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 0 5px;
+      margin-top: 20px;
+    }
+    .contentView {
+      color: #666;
+      font-size: 13px;
+      margin: 10px 0 20px 0;
+      line-height: 20px;
+      width: calc(100% - 40);
+    }
+    .buttonsView {
+      display: flex;
+      justify-content: space-between;
+      .buttonItemLeft {
+        width: 46%;
+        line-height: 40px;
+        text-align: center;
+        color: #3078DB;
+        border: 1px solid #3078DB;
+        background-color: #F2F2F2;
+        border-radius: 3px;
+      }
+      .buttonItemRight {
+        width: 46%;
+        border-radius: 3px;
+        line-height: 40px;
+        text-align: center;
+        background-color: #3078DB;
+        color: #fff;
+        font-size: 14px;
+        button {
+          color: #fff !important;
+          background-color: #3078DB !important;
+        }
+      }
+    }
+  }
+}
